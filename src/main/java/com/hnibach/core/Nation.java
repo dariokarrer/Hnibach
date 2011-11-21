@@ -5,7 +5,7 @@ public class Nation {
 	private String mNationName;
 
 	public Nation(String name) {
-		setNationName(name);
+		mNationName = name;
 	}
 
 	public void setNationName(String nationName) {
