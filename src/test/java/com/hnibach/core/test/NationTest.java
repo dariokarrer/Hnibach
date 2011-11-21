@@ -12,6 +12,7 @@ public class NationTest {
 	@Test
 	public void testNation() {
 		Nation nat = new Nation(mNationName);
+		Assert.assertNotNull(nat.getNationName());
 		Assert.assertEquals(mNationName, nat.getNationName());
 	}
 
