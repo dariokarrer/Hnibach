@@ -2,7 +2,10 @@ package com.hnibach.main;
 
 public class Runner {
 
-	public Runner() {
+	private final String mRunnerValue;
+
+	public Runner(String runner) {
+		mRunnerValue = runner;
 
 	}
 
