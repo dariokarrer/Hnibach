@@ -9,6 +9,10 @@ public class Runner {
 
 	}
 
+	public String getRunnerValue() {
+		return mRunnerValue;
+	}
+
 	public static void main(String[] args) {
 		System.exit(0);
 	}
